@@ -1,0 +1,70 @@
+@media(min-width: 700px){
+    .container{
+        flex-direction: row;
+        padding: 3rem 4rem;
+        gap: 5rem;
+    }
+    .box-left{
+        width: 40%;
+        text-align:left;
+    }
+    .box-left h1{
+        font-size: 3rem;
+        text-align:left;
+    }
+    .box-left p{
+        font-size: 1rem;
+        line-height: 1.5rem;
+        text-align:left;
+        font-weight: 400;
+    }
+    
+    .box-right{
+        width: 40%;
+    }
+    
+    
+    .promotion-text{
+        /* box-shadow: 3px 6px rgba(0, 0, 0, 0.383);
+        margin-left: -16px;
+        width: 75%;
+        background-color: aqua;
+        background-color: #5d54a3;
+        padding: 1rem 3rem;
+        font-size: 1.25rem;
+        border-radius: 8px; */
+    }
+    .form{
+        /* text-align: center;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%; */
+    }
+    input{
+        /* font-weight: bold;
+        padding: 20px;
+        width: 200px; */
+    }
+    button{
+        /* font-weight: 600;
+        font-size: 15px;
+        color: #ffffff;
+        background-color: #37cc8a  ;
+        padding: 1rem 2rem;
+        border-radius: 8px;
+        border: none;
+        width: 245px;
+        text-transform: uppercase;
+        cursor: pointer; */
+    }
+    
+    /* .p-down{
+        gap: 7px;
+        display: flex;
+        flex-direction: column; 
+        font-size: 15px;
+        color: #c8c8cc;
+    } */
+}

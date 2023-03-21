@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: rgb(12, 164, 93);
+        }
+        a{
+            color: rgb(249, 249, 255);
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        button{
+            width: 100px;
+            height: 50px;
+            background-color: #000000;
+            border: none;
+            border-radius: 10px;
+        }
+        img{
+            border-radius: 50%;
+            width: 500px;
+            max-width: 100%;
+            -moz-transition: all 0.3s;
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+        img:hover{
+            -moz-transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+        .grid{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 50px;
+        }
+        h1{
+            padding-top: 10px;
+        }
+        h2{
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Viste Nosso GitHub</h1>
+    <div class="container grid">
+            <div class="bruno">
+                <h2>Bruno</h2>
+                <a href="https://github.com/Bruno-al" target="_blank"><img src="../redes/bruno.jpeg" alt="bruno-github"></a>
+            </div>
+            <div class="melissa">
+                <h2>Melissa</h2>
+                <a href="#" target="_blank"><img src="../redes/melissa.png" alt="melissa-github"></a>
+            </div>
+            <div class="gabriel">
+                <h2>Gabriel</h2>
+                <a href="https://github.com/Gabriel-Matias07" target="_blank"><img src="../redes/gabriel.jpeg" alt="gabriel-github">
+            </a></div>
+    </div>
+
+    <button><a href="index.html">Voltar</a></button>
+    
+</body>
+</html>
